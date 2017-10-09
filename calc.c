@@ -1,12 +1,11 @@
 #include <stdio.h>
-
-void main(){
-int a,b;
-printf("\n Enter two numbers :");
-scanf("%d",&a);
-scanf("%d",&b);
-int sum = a + b;
-  int mul = a*b;
-printf("\n Sum = %d",&sum);
-  printf("\n Product = "%d", & mul) ;
+void main()
+{
+  int a,b;
+  printf("\n Enter two numbers :");
+  scanf("%d%d",&a,&b);
+  printf("\nSum = %d",a+b);
+  printf("\nSub = %d",a-b);
+  printf("\nProduct = %d",a*b);
+  printf("\nDivision = %f",a/b);
 }
